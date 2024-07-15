@@ -1,17 +1,20 @@
-import { useState } from "react";
+import { useState } from 'react'
 import Navbar from './components/Navbar'
-import Header from'./components/Header'
-import "./App.css";
+import Header from './components/Header'
+import Contact from './components/Contact'
+import { Route, Link } from 'react-router-dom'
+import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0);
+    const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <Navbar />
-      <Header />
-    </>
-  );
+    return (
+        <>
+            <Navbar />
+            <Contact />
+            <Header />
+        </>
+    )
 }
 
-export default App;
+export default App

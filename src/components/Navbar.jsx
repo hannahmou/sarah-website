@@ -1,15 +1,17 @@
 export default function Navbar() {
-  return (
-    <nav className="font-interTight float-right text-right mt-[20px] pr-[100px]">
-      {" "}
-      {/*mt-8*/}
-      <div className="text-right text-black text-[23.02px] font-medium font-interTight leading-[35.19px] ]">
-        CONTACT
-        <br />
-        ABOUT
-        <br />
-        CV
-      </div>{" "}
-    </nav>
-  );
+    return (
+        <nav className="float-right mt-[130px] pr-[250px] text-right font-interTight">
+            <ul className="text-right font-interTight text-[25px] font-medium leading-[35.19px] text-black">
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#">CV</a>
+                </li>
+            </ul>
+        </nav>
+    )
 }

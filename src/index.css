@@ -4,5 +4,5 @@
 @tailwind utilities;
 @font-face {
     font-family: 'High-Tower';
-    src: url('./assets/fonts/high-tower-text.ttf') format("truetype");
+    src: url('C:\Users\hanna\sarah-website\src\assets\fonts\Hightower TextItalic.ttf') format("truetype");
 }
