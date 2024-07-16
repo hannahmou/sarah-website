@@ -3,7 +3,7 @@ const HoverText = ({ type, name, description }) => {
         <div>
             <button>
                 <img
-                    className="absolute right-0 m-[54px]"
+                    className="absolute right-0 m-[54px] w-20"
                     src="public\images\arrowRightIcon.png"
                 ></img>
             </button>

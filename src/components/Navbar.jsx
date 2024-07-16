@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     return (
-        <nav className="float-right mb-[30px] text-right font-interTight lg:mr-[100px] lg:mt-[150px]">
+        <nav className="float-right px-56 pt-32 text-right font-interTight">
             <ul className="text-md text-right font-interTight font-medium leading-[35.19px] text-black md:text-[25px]">
                 <li>
                     <Link to="/work">WORK</Link>

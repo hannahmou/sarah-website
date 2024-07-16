@@ -3,19 +3,20 @@ import HoverText from './HoverText'
 
 export default function Header() {
     return (
-        <div className="pb-[40px] lg:px-[100px]">
-            <div className="font-highTower text-5xl font-normal italic -tracking-[0.04em] text-black sm:text-[85px] lg:text-[200px]">
+        <div className="px-52 pb-9 pt-24">
+            <div className="mb-25 font-highTower text-[100px] font-normal italic -tracking-[0.04em] text-black">
                 sarah mou
             </div>
             <div className="sm:grid-cols-16 mx-auto mt-[30px] grid w-full gap-[24px] md:grid-cols-5 lg:grid-cols-8">
-                <div className="w-full gap-4 md:col-span-2 lg:col-span-3">
-                    <div className="w-full pb-[79px] pr-[40px] font-interTight font-light leading-9 text-black sm:pl-[20px] md:pl-[79px] md:text-[20px] lg:pl-[21px] lg:text-[30px]">
-                        Hello! I'm Sarah Mou, a product and UX designer at UC
-                        Berkeley, who’s excited by clean design and
-                        functionality. Feel free to click around and explore!
+                <div className="w-full gap-[24px] md:col-span-2 lg:col-span-3">
+                    <div className="w-full pb-[79px] pr-[40px] font-interTight font-light leading-9 text-black md:text-[20px] lg:text-[30px]">
+                        Hello! I'm <span className="italic">Sarah Mou</span>, a
+                        product and UX designer at UC Berkeley, who’s excited by
+                        clean design and functionality. Feel free to click
+                        around and explore!
                     </div>
 
-                    {/* STABLECOIN */}
+                    {/* STABLEPAY */}
                     <div className="group relative mb-[24px] h-auto w-full overflow-hidden rounded-[40px] border-[2.65px] border-[#E6E8ED] bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-[#7DBF5C]/20 to-[#FBFBFD] transition-all duration-300 ease-in-out">
                         <div className="hover-gradient">
                             <HoverText
@@ -25,8 +26,8 @@ export default function Header() {
                             />
                         </div>
                         <img
-                            className="mx-auto ml-[96px] mt-[96px] h-auto w-full"
-                            src="/images/stablePayMac.png"
+                            className="ml-auto mt-4 w-fit object-scale-down pl-8 pt-8"
+                            src="images\stablePayMac.png"
                             alt=""
                         />
                     </div>
@@ -41,7 +42,7 @@ export default function Header() {
                             />
                         </div>
                         <img
-                            className="mx-auto my-[100px] h-auto max-w-full"
+                            className="mx-auto my-[100px] h-auto max-w-full object-scale-down"
                             src="/images/bluePrintPost.png"
                             alt=""
                         />
@@ -56,7 +57,7 @@ export default function Header() {
                             />
                         </div>
                         <img
-                            className="mx-auto h-auto max-w-full py-[50px] pr-[50px]"
+                            className="mx-auto h-auto max-w-full object-scale-down py-[50px] pr-[50px]"
                             src="/images/berkeleyRekWellBook.png"
                             alt=""
                         />
@@ -71,13 +72,13 @@ export default function Header() {
                             />
                         </div>
                         <img
-                            className="mx-auto my-[100px] max-w-full py-[80px]"
+                            className="mx-auto my-1 h-[700px] max-w-fit object-scale-down py-[40px]"
                             src="/images/biddleIphone.png"
                             alt=""
                         />
                     </div>
                 </div>
-                <div className="flex w-full flex-col gap-4 md:col-span-3 lg:col-span-5">
+                <div className="flex w-full flex-col md:col-span-3 lg:col-span-5">
                     {/* FOODCHAIN */}
                     <div className="background-gradient group from-rose-300/20 to-[#FBFBFD]">
                         <div className="hover-gradient">
@@ -88,7 +89,7 @@ export default function Header() {
                             />
                         </div>
                         <img
-                            className="mx-auto my-[15px] h-[500px] max-w-full"
+                            className="mx-auto my-[15px] h-[425px] max-w-full object-scale-down"
                             src="/images/foodChainIphone.png"
                             alt=""
                         />
@@ -99,11 +100,11 @@ export default function Header() {
                             <HoverText
                                 type="Web Design / Development"
                                 name="SwiftEase"
-                                description="Streamlining the ticket purchasing process of concert tickets for Taylor Swift fans."
+                                description="Streamlining object-scale-down the ticket purchasing process of concert tickets for Taylor Swift fans."
                             />
                         </div>
                         <img
-                            className="mx-auto h-auto max-w-full md:my-[150px]"
+                            className="mx-auto my-36 h-auto max-w-full"
                             src="/images/swiftEaseEvents.png"
                             alt=""
                         />
@@ -118,7 +119,7 @@ export default function Header() {
                             />
                         </div>
                         <img
-                            className="mx-auto max-w-full px-[30px] sm:my-[175px] md:my-[250px]"
+                            className="mx-auto my-36 max-w-full object-scale-down px-4"
                             src="/images/calEsports.png"
                             alt=""
                         />
@@ -133,7 +134,7 @@ export default function Header() {
                             />
                         </div>
                         <img
-                            className="h-auto max-w-full pr-[100px] sm:my-[70px] md:my-[200px] lg:my-[200px]"
+                            className="h-[700px] max-w-full object-scale-down sm:my-3 sm:pr-[10px] md:my-40 lg:my-[150px] lg:pr-[100px]"
                             src="/images/lawLoopMacbook.png"
                             alt=""
                         />
