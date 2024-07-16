@@ -9,5 +9,9 @@
 }
 
 .hover-gradient {
-    @apply opacity-0 transition-opacity duration-300 ease-in-out group-hover:absolute group-hover:inset-0 group-hover:z-10 group-hover:flex group-hover:items-center group-hover:justify-center group-hover:bg-[radial-gradient(circle_at_bottom_left,_rgba(255,255,255,1)_15%,_rgba(251,251,253,0)_80%)] group-hover:opacity-100; /* The 15% determines how white the bottom left corner is */
+    @apply absolute inset-0 flex opacity-0 transition-opacity duration-300 ease-in-out group-hover:absolute group-hover:inset-0 group-hover:z-10 group-hover:flex group-hover:bg-[radial-gradient(circle_at_bottom_left,_rgba(255,255,255,1)_30%,_rgba(251,251,253,0)_130%)] group-hover:opacity-100; /* The 15% determines how white the bottom left corner is */
+}
+
+.background-gradient {
+    @apply relative mb-[24px] h-auto w-full overflow-hidden rounded-[40px] border-[2.65px] border-[#E6E8ED] bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] transition-all duration-300 ease-in-out;
 }
