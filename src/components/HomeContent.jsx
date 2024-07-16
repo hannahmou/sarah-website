@@ -1,9 +1,19 @@
+import { Link } from 'react-router-dom'
+
 import { useState } from 'react'
 import HoverText from './HoverText'
 
 export default function HomeContent() {
+    function handleClick() {
+        return (
+            <>
+                <Link to="/stablepay" />
+            </>
+        )
+    }
+
     return (
-        <div className="pb-9 sm:pt-0 md:px-10 lg:px-28 lg:pt-24">
+        <div className="pb-9 sm:pt-0 md:px-10 lg:px-[96px]">
             <div className="font-highTower font-normal italic -tracking-[0.04em] text-black sm:text-[75px] md:text-[80px] lg:text-[100px]">
                 sarah mou
             </div>
@@ -17,21 +27,23 @@ export default function HomeContent() {
                     </div>
 
                     {/* STABLEPAY */}
-                    <div className="group relative mb-[24px] h-auto w-full overflow-hidden rounded-[40px] border-[2.65px] border-[#E6E8ED] bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-[#7DBF5C]/20 to-[#FBFBFD] transition-all duration-300 ease-in-out">
-                        <div className="hover-gradient">
-                            <HoverText
-                                className="transition-opacity duration-300 ease-in-out"
-                                type="UI / UX Research Project"
-                                name="stablepay"
-                                description="Making stablecoin finance more accessible for businesses."
+                    <Link to="stablepay">
+                        <div className="group relative mb-[24px] h-auto w-full overflow-hidden rounded-[40px] border-[2.65px] border-[#E6E8ED] bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-[#7DBF5C]/20 to-[#FBFBFD] transition-all duration-300 ease-in-out">
+                            <div className="hover-gradient">
+                                <HoverText
+                                    className="transition-opacity duration-300 ease-in-out"
+                                    type="UI / UX Research Project"
+                                    name="stablepay"
+                                    description="Making stablecoin finance more accessible for businesses."
+                                />
+                            </div>
+                            <img
+                                className="ml-auto mt-4 w-fit object-scale-down pl-14 pt-14"
+                                src="images\stablePayMac.png"
+                                alt=""
                             />
                         </div>
-                        <img
-                            className="ml-auto mt-4 w-fit object-scale-down pl-14 pt-14"
-                            src="images\stablePayMac.png"
-                            alt=""
-                        />
-                    </div>
+                    </Link>
 
                     {/* BLUEPRINT */}
                     <div className="background-gradient group from-[#86D1EE]/20 to-[#FBFBFD]">
@@ -126,7 +138,7 @@ export default function HomeContent() {
                             />
                         </div>
                         <img
-                            className="mx-auto my-60 max-w-full object-scale-down px-4"
+                            className="px- mx-auto my-60 max-w-full object-scale-down"
                             src="/images/calEsports.png"
                             alt=""
                         />
