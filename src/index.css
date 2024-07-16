@@ -7,3 +7,7 @@
     src: url('C:\Users\hanna\sarah-website\src\assets\fonts\Hightower TextItalic.ttf')
         format('truetype');
 }
+
+.hover-gradient {
+    @apply opacity-0 transition-opacity duration-300 ease-in-out group-hover:absolute group-hover:inset-0 group-hover:z-10 group-hover:flex group-hover:items-center group-hover:justify-center group-hover:bg-[radial-gradient(circle_at_bottom_left,_rgba(255,255,255,1)_15%,_rgba(251,251,253,0)_80%)] group-hover:opacity-100; /* The 15% determines how white the bottom left corner is */
+}
