@@ -4,10 +4,10 @@ import Navbar from '../components/Navbar'
 
 export default function Work() {
     return (
-        <div className="m-72 mt-44">
+        <div className="">
             <Navbar />
             <HomeContent />
-            <Footer /> 384-288-112
+            <Footer />
         </div>
     )
 }

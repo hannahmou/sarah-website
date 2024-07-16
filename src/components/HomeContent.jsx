@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 
 import { useState } from 'react'
 import HoverText from './HoverText'
+import Navbar from './Navbar'
 
 export default function HomeContent() {
     function handleClick() {
@@ -13,13 +14,13 @@ export default function HomeContent() {
     }
 
     return (
-        <div className="pb-9 sm:pt-0 md:px-10 lg:px-[96px]">
-            <div className="font-highTower font-normal italic -tracking-[0.04em] text-black sm:text-[75px] md:text-[80px] lg:text-[100px]">
+        <div className="mx-auto max-w-screen-lg p-10 pt-14">
+            <div className="col-span-4 my-auto mt-auto font-highTower text-6xl font-normal italic -tracking-[0.04em] text-black">
                 sarah mou
             </div>
-            <div className="sm:grid-cols-16 mx-auto mt-[30px] grid w-full gap-[24px] md:grid-cols-5 lg:grid-cols-12">
-                <div className="w-full gap-[24px] md:col-span-2 lg:col-span-5">
-                    <div className="w-full pb-[79px] pr-[40px] font-interTight font-light leading-9 text-black md:text-[20px] lg:text-[30px]">
+            <div className="mx-auto mt-8 grid w-full grid-cols-12 gap-4">
+                <div className="col-span-5 w-full gap-4">
+                    <div className="w-full pb-12 pr-2 font-interTight text-base font-light leading-relaxed text-black">
                         Hello! I'm <span className="italic">Sarah Mou</span>, a
                         product and UX designer at UC Berkeley, who’s excited by
                         clean design and functionality. Feel free to click
@@ -28,7 +29,7 @@ export default function HomeContent() {
 
                     {/* STABLEPAY */}
                     <Link to="stablepay">
-                        <div className="group relative mb-[24px] h-auto w-full overflow-hidden rounded-[40px] border-[2.65px] border-[#E6E8ED] bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-[#7DBF5C]/20 to-[#FBFBFD] transition-all duration-300 ease-in-out">
+                        <div className="group relative mb-4 overflow-hidden rounded-[40px] border-[2.65px] border-[#E6E8ED] bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-[#7DBF5C]/20 to-[#FBFBFD] transition-all duration-300 ease-in-out">
                             <div className="hover-gradient">
                                 <HoverText
                                     className="transition-opacity duration-300 ease-in-out"
@@ -38,7 +39,7 @@ export default function HomeContent() {
                                 />
                             </div>
                             <img
-                                className="ml-auto mt-4 w-fit object-scale-down pl-14 pt-14"
+                                className="ml-auto mt-0 w-fit object-scale-down pl-4 pt-4"
                                 src="images\stablePayMac.png"
                                 alt=""
                             />
@@ -94,7 +95,7 @@ export default function HomeContent() {
                         />
                     </div>
                 </div>
-                <div className="flex w-full flex-col md:col-span-3 lg:col-span-7">
+                <div className="col-span-7 flex w-full flex-col">
                     {/* FOODCHAIN */}
                     <div className="background-gradient group from-rose-300/20 to-[#FBFBFD]">
                         <div className="hover-gradient">
@@ -138,7 +139,7 @@ export default function HomeContent() {
                             />
                         </div>
                         <img
-                            className="px- mx-auto my-60 max-w-full object-scale-down"
+                            className="mx-auto my-40 max-w-full object-scale-down px-8"
                             src="/images/calEsports.png"
                             alt=""
                         />

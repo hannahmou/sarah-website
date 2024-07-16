@@ -1,18 +1,20 @@
+import Navbar from './Navbar'
+
 export default function IntroStablepay() {
     return (
-        <div>
+        <div className="mx-auto">
             <div className="flex flex-col items-center">
                 <div className="h-auto w-full bg-[radial-gradient(circle_at_bottom,_var(--tw-gradient-stops))] from-[#277F4E]/50 to-transparent pt-[65px]">
-                    <div className="flex w-full justify-center pt-[70px]">
+                    <div className="inline w-full justify-center pt-[70px]">
                         <img
-                            className="w-[800px]"
+                            className="mx-auto w-[700px]"
                             src="public/images/StablepayDesktop.png"
                             alt="Stablepay Desktop"
                         />
                     </div>
                 </div>
             </div>
-            <div className="grow-0 p-96 pt-[100px]">
+            <div className="mx-auto max-w-screen-lg grow-0 pt-[100px]">
                 <div className="grid grid-flow-col grid-cols-5">
                     <div className="col-span-2 break-words">
                         <h1 className="py-20 font-highTower text-8xl -tracking-[0.06em]">

@@ -3,18 +3,18 @@ const HoverText = ({ type, name, description }) => {
         <div>
             <button>
                 <img
-                    className="absolute right-0 m-[54px] w-20"
+                    className="absolute right-0 mr-4 h-12 w-auto"
                     src="public\images\arrowRightIcon.png"
                 ></img>
             </button>
-            <div className="absolute bottom-[20px] m-[30px] pl-[25px] leading-[80px]">
-                <h3 className="text-wrap font-interTight text-[25px] leading-[70px] text-[#A9A9A9]">
+            <div className="absolute bottom-0 pb-8 pl-5 leading-snug">
+                <h3 className="text-wrap font-interTight text-base leading-snug text-[#A9A9A9]">
                     {type}
                 </h3>
-                <h1 className="text-wrap font-highTower text-[95px] italic -tracking-[0.06em]">
+                <h1 className="text-wrap font-highTower text-6xl italic -tracking-[0.06em]">
                     {name}
                 </h1>
-                <h2 className="text-wrap pt-[55px] font-interTight text-[25px] leading-[38px]">
+                <h2 className="mr-9 text-wrap font-interTight text-base leading-snug">
                     {description}
                 </h2>
             </div>

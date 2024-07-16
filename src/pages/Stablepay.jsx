@@ -4,11 +4,10 @@ import Navbar from '../components/Navbar'
 
 export default function Stablepay() {
     return (
-        <div className="">
+        <div>
             <Navbar />
-            <div className="clear-both">
-                <IntroStablepay />
-            </div>
+            <IntroStablepay />
+
             <Footer />
         </div>
     )
