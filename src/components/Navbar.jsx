@@ -1,15 +1,17 @@
+import { Link } from 'react-router-dom'
+
 export default function Navbar() {
     return (
-        <nav className="float-right mt-[130px] pr-[250px] text-right font-interTight">
+        <nav className="float-right mt-[130px] text-right font-interTight">
             <ul className="text-right font-interTight text-[25px] font-medium leading-[35.19px] text-black">
                 <li>
-                    <a href="#">CONTACT</a>
+                    <Link to="/work">WORK</Link>
                 </li>
                 <li>
-                    <a href="#">ABOUT</a>
+                    <Link to="/about">ABOUT</Link>
                 </li>
                 <li>
-                    <a href="#">CV</a>
+                    <Link to="/cv">CV</Link>
                 </li>
             </ul>
         </nav>
