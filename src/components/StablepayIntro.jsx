@@ -8,16 +8,16 @@ export default function IntroStablepay() {
                     <div className="inline w-full justify-center pt-[70px]">
                         <img
                             className="mx-auto w-[700px]"
-                            src="public/images/StablepayDesktop.png"
+                            src="images/StablepayDesktop.png"
                             alt="Stablepay Desktop"
                         />
                     </div>
                 </div>
             </div>
-            <div className="mx-auto max-w-screen-lg grow-0 pt-[100px]">
+            <div className="mx-auto mt-10 max-w-screen-lg px-8">
                 <div className="grid grid-flow-col grid-cols-5">
                     <div className="col-span-2 break-words">
-                        <h1 className="py-20 font-highTower text-8xl -tracking-[0.06em]">
+                        <h1 className="pb-14 font-highTower text-8xl -tracking-[0.06em]">
                             stablepay
                         </h1>
                     </div>
@@ -49,7 +49,7 @@ export default function IntroStablepay() {
                         </div>
                     </div>
 
-                    <div className="col-span-1 row-span-3 grid grid-rows-subgrid p-12">
+                    <div className="col-span-1 row-span-2 grid grid-rows-subgrid p-10">
                         <div className="row-start-2">
                             <h4 className="font-interTight text-xl font-semibold leading-6">
                                 Timeline
@@ -59,7 +59,7 @@ export default function IntroStablepay() {
                             </p>
                         </div>
                     </div>
-                    <div className="col-span-1 row-span-3 grid grid-rows-subgrid p-12">
+                    <div className="col-span-1 row-span-2 grid grid-rows-subgrid p-10">
                         <div className="row-start-2">
                             <h4 className="font-interTight text-xl font-semibold leading-6">
                                 Team
@@ -73,11 +73,11 @@ export default function IntroStablepay() {
                             </div>
                         </div>
                     </div>
-                    <div className="justify-center pt-32 font-interTight text-xl text-[#838588]">
+                    <div className="justify-center pt-12 font-interTight text-base text-[#838588]">
                         Blockchain @ Berkeley
                     </div>
 
-                    <div className="col-span-1">
+                    <div className="col-span-1 pl-6">
                         <h4 className="font-interTight text-xl font-semibold leading-6 text-black">
                             Disciplines
                         </h4>

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
-        <div className="mx-auto max-w-screen-lg">
+        <div className="mx-auto mt-16 max-w-screen-lg">
             <hr className="mx-8 pb-5"></hr>
             <div className="my-8">
                 <div className="float-left list-none pb-14 pl-8">
