@@ -5,14 +5,6 @@ import HoverText from './HoverText'
 import Navbar from './Navbar'
 
 export default function HomeContent() {
-    function handleClick() {
-        return (
-            <>
-                <Link to="/stablepay" />
-            </>
-        )
-    }
-
     return (
         <div className="mx-auto max-w-screen-lg p-10 pt-14">
             <div className="col-span-4 my-auto mt-auto font-highTower text-6xl font-normal italic -tracking-[0.04em] text-black">
@@ -97,21 +89,23 @@ export default function HomeContent() {
                 </div>
                 <div className="col-span-7 flex w-full flex-col">
                     {/* FOODCHAIN */}
-                    <div className="background-gradient group from-rose-300/20 to-[#FBFBFD]">
-                        <div className="hover-gradient">
-                            <HoverText
-                                className="transition-opacity duration-300 ease-in-out"
-                                type="UI / UX Design"
-                                name="FoodChain"
-                                description="Utilizing blockchain techology to trace the journey of food prodcts, ensuring their safety and integrity."
+                    <Link to="foodchain">
+                        <div className="background-gradient group from-rose-300/20 to-[#FBFBFD]">
+                            <div className="hover-gradient">
+                                <HoverText
+                                    className="transition-opacity duration-300 ease-in-out"
+                                    type="UI / UX Design"
+                                    name="FoodChain"
+                                    description="Utilizing blockchain techology to trace the journey of food prodcts, ensuring their safety and integrity."
+                                />
+                            </div>
+                            <img
+                                className="mx-auto my-[15px] h-[380px] max-w-full object-scale-down"
+                                src="/images/foodChainIphone.png"
+                                alt=""
                             />
                         </div>
-                        <img
-                            className="mx-auto my-[15px] h-[380px] max-w-full object-scale-down"
-                            src="/images/foodChainIphone.png"
-                            alt=""
-                        />
-                    </div>
+                    </Link>
                     {/* SWIFTEASE */}
                     <div className="background-gradient group from-[#5067AB]/20 to-[#FBFBFD]">
                         <div className="hover-gradient">

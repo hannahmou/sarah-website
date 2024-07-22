@@ -1,4 +1,4 @@
-import SectionHeader from './SectionHeader'
+import SectionHeader from '../SectionHeader'
 
 export default function StablepayTrust() {
     return (
@@ -17,7 +17,10 @@ export default function StablepayTrust() {
                 </div>
             </div>
             <div>
-                <img className="pt-20" src="images\stablepayChart.png" />
+                <img
+                    className="mx-auto w-full pt-20"
+                    src="images\stablepayChart.png"
+                />
             </div>
             <div className="mx-auto mt-16 max-w-screen-lg px-12">
                 <div>
