@@ -17,13 +17,13 @@ export default function StablepayDifferent() {
                     <div className="flex items-end">
                         <img
                             className="align-bottom"
-                            src="images/stablepayMacFull.png"
+                            src="images/Stablepay/stablepayMacFull.png"
                         />
                     </div>
                     <div className="flex items-end">
                         <img
                             className="align-bottom"
-                            src="images/stablepayLaptop.png"
+                            src="images/Stablepay/stablepayLaptop.png"
                         />
                     </div>
                 </div>

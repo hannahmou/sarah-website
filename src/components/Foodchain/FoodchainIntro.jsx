@@ -1,14 +1,14 @@
 import Navbar from '../Navbar'
 
-export default function IntroStablepay() {
+export default function FoodchainIntro() {
     return (
         <div className="mx-auto">
             <div className="flex flex-col items-center">
-                <div className="h-auto w-full bg-[radial-gradient(circle_at_bottom,_var(--tw-gradient-stops))] from-[#277F4E]/50 to-transparent pt-[65px]">
+                <div className="h-auto w-full bg-[radial-gradient(circle_at_bottom,_var(--tw-gradient-stops))] from-[#EDB4BA]/50 to-transparent pt-[10px]">
                     <div className="inline w-full justify-center pt-[70px]">
                         <img
-                            className="mx-auto w-[700px]"
-                            src="images/Stablepay/StablepayDesktop.png"
+                            className="mx-auto w-[500px]"
+                            src="images/Foodchain/foodchainIntroPic.png"
                             alt="Stablepay Desktop"
                         />
                     </div>
@@ -18,7 +18,7 @@ export default function IntroStablepay() {
                 <div className="grid grid-flow-col grid-cols-5">
                     <div className="col-span-2 break-words">
                         <h1 className="pb-14 font-highTower text-8xl -tracking-[0.06em]">
-                            stablepay
+                            FoodChain
                         </h1>
                     </div>
                     <div className="border-[#838588]-100 col-span-2 border-r-2">
@@ -27,24 +27,27 @@ export default function IntroStablepay() {
                         </h4>
                         <div className="mr-16 mt-3 font-light leading-8">
                             <p>
-                                Stablecoins are digital tokens pegged to
-                                real-world assets, like fiat currency. Despite
-                                their versatile applications, they often face
-                                distrust and encounter barriers to growth and
-                                widespread adoption.
+                                As supply chains grow more complex each year,
+                                ensuring food safety, preventing contamination,
+                                and holding companies accountable are becoming
+                                increasingly vital.
                                 <br></br>
                             </p>
                         </div>
 
                         <div className="col-span-2">
                             <p className="mr-16 mt-3 font-light leading-8">
-                                <br></br>
-                                To tackle these challenges, we created{' '}
-                                <span className="font-semibold">stablepay</span>
-                                , an application dedicated to enhancing the
-                                accessibility of stablecoin finance through
-                                innovative technology and user-friendly
-                                platforms.
+                                <br></br>{' '}
+                                <span className="font-semibold">
+                                    FoodChain{' '}
+                                </span>
+                                visualizes all the steps your food takes to end
+                                up at your local grocery store and on your
+                                plate. By leveraging blockchain technology, you
+                                can trust that your food is safe, receive alerts
+                                if there are issues, and hold companies
+                                accountable by verifying their eco-friendly
+                                claims.
                             </p>
                         </div>
                     </div>
@@ -55,7 +58,7 @@ export default function IntroStablepay() {
                                 Timeline
                             </h4>
                             <p className="font-interTight font-light">
-                                Jan - May 2024
+                                Dec - Jan 2024
                             </p>
                         </div>
                     </div>
@@ -66,10 +69,6 @@ export default function IntroStablepay() {
                             </h4>
                             <div className="font-interTight font-light">
                                 <p>Sarah Mou</p>
-                                <p>Jessica Situ</p>
-                                <p>Oleg Viakin</p>
-                                <p>Arushi Arora</p>
-                                <p>Meghan Ho</p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +82,7 @@ export default function IntroStablepay() {
                         </h4>
                         <div className="font-interTight text-base font-light text-black">
                             <p>UI / UX Research</p>
-                            <p>Web Design</p>
+                            <p>Prototyping</p>
                         </div>
                     </div>
                 </div>

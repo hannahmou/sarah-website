@@ -32,7 +32,7 @@ export default function HomeContent() {
                             </div>
                             <img
                                 className="ml-auto mt-0 w-fit object-scale-down pl-4 pt-4"
-                                src="images\stablePayMac.png"
+                                src="images\Stablepay\stablePayMac.png"
                                 alt=""
                             />
                         </div>
@@ -101,7 +101,7 @@ export default function HomeContent() {
                             </div>
                             <img
                                 className="mx-auto my-[15px] h-[380px] max-w-full object-scale-down"
-                                src="/images/foodChainIphone.png"
+                                src="/images/Foodchain/foodChainIphone.png"
                                 alt=""
                             />
                         </div>

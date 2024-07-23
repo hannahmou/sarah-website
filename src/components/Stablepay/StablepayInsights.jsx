@@ -39,7 +39,10 @@ export default function StablePayInsights() {
                         </div>
                     </div>
                     <div>
-                        <img className="p-12" src="images\poloneix.png" />
+                        <img
+                            className="p-12"
+                            src="images\Stablepay\poloneix.png"
+                        />
                     </div>
                 </div>
             </div>

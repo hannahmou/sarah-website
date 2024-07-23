@@ -18,7 +18,7 @@ export default function StablepayBackground() {
                 <div className="mx-auto mt-6 grid grid-cols-7 items-center bg-[#EEEEEE]">
                     <img
                         className="row-span-2 mx-8 my-8"
-                        src="images\stablePayUSDC.png"
+                        src="images\Stablepay\stablePayUSDC.png"
                     ></img>
                     <div className="col-span-6 mx-12">
                         <h2 className="mt-8 font-interTight text-2xl font-bold leading-9">

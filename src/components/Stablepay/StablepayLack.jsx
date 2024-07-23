@@ -3,7 +3,7 @@ import SectionHeader from '../SectionHeader'
 export default function StablepayLack() {
     return (
         <div className="mx-auto mt-16 max-w-screen-lg px-12">
-            <SectionHeader number="003" title="PROBLEM" />
+            <SectionHeader number="005" title="LACK OF KNOWLEDGE" />
             <div>
                 <h1 className="mt-12 font-interTight text-4xl font-medium">
                     Learn more, right in the app.
@@ -15,10 +15,10 @@ export default function StablepayLack() {
                 </p>
             </div>
             <div>
-                <img src="images\stablePayAI.png"></img>
+                <img src="images\Stablepay\stablePayAI.png"></img>
             </div>
             <div className="mx-auto max-w-screen-lg px-12 pt-12">
-                <img src="images\stablepayOnScreen.png" />
+                <img src="images\Stablepay\stablepayOnScreen.png" />
                 <h3 className="font-interTight text-3xl font-medium">
                     On-screen content versus tabs
                 </h3>

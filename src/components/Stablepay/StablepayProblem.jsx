@@ -18,7 +18,7 @@ export default function StablePayProblem() {
                     <div className="flex items-center">
                         <img
                             className="flex-box h-8"
-                            src="images/thumbsDown.png"
+                            src="images/Icons/thumbsDown.png"
                         />
                         <h2 className="m-4 pr-12 align-middle font-interTight text-xl font-medium">
                             Lack of trust
@@ -31,7 +31,10 @@ export default function StablePayProblem() {
                 </div>
                 <div>
                     <div className="flex items-center">
-                        <img className="flex-box h-8" src="images/pig.png" />
+                        <img
+                            className="flex-box h-8"
+                            src="images/Icons/pig.png"
+                        />
                         <h2 className="m-4 pr-12 align-middle font-interTight text-xl font-medium">
                             Limited liquidity
                         </h2>
@@ -44,7 +47,10 @@ export default function StablePayProblem() {
                 </div>
                 <div>
                     <div className="flex items-center">
-                        <img className="flex-box h-8" src="images\cloudX.png" />
+                        <img
+                            className="flex-box h-8"
+                            src="images\Icons\cloudX.png"
+                        />
                         <h2 className="m-4 pr-12 align-middle font-interTight text-xl font-medium">
                             Poor integration
                         </h2>
@@ -78,7 +84,7 @@ export default function StablePayProblem() {
                             </p>
                             <img
                                 className="overflow-visible rounded-full bg-[#2B3B32] p-4"
-                                src="images\personHeart.png"
+                                src="images\Icons\personHeart.png"
                             />
                         </div>
                         <div className="mt-8 border-b-2"></div>
@@ -93,7 +99,7 @@ export default function StablePayProblem() {
                             </p>
                             <img
                                 className="overflow-visible rounded-full bg-[#2B3B32] p-4"
-                                src="images\shop.png"
+                                src="images\Icons\shop.png"
                             />
                         </div>
                     </div>
@@ -107,7 +113,7 @@ export default function StablePayProblem() {
                             </p>
                             <img
                                 className="overflow-visible rounded-full bg-[#2B3B32] p-4"
-                                src="images\personPlus.png"
+                                src="images\Icons\personPlus.png"
                             />
                         </div>
                         <div className="mt-8 border-b-2"></div>
@@ -122,7 +128,7 @@ export default function StablePayProblem() {
                             </p>
                             <img
                                 className="overflow-visible rounded-full bg-[#2B3B32] p-4"
-                                src="images\shop.png"
+                                src="images\Icons\shop.png"
                             />
                         </div>
                     </div>

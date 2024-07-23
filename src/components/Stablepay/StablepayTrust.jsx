@@ -19,7 +19,7 @@ export default function StablepayTrust() {
             <div>
                 <img
                     className="mx-auto w-full pt-20"
-                    src="images\stablepayChart.png"
+                    src="images\Stablepay\stablepayChart.png"
                 />
             </div>
             <div className="mx-auto mt-16 max-w-screen-lg px-12">
@@ -37,7 +37,7 @@ export default function StablepayTrust() {
                     </p>
                     <img
                         className="pb-36 pt-8"
-                        src="images\stablepayInitial.png"
+                        src="images\Stablepay\stablepayInitial.png"
                     ></img>
                 </div>
             </div>

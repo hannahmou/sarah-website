@@ -13,7 +13,7 @@ export default function StablepaySummary() {
                 </h1>
                 <img
                     className="mx-auto mt-16"
-                    src="public/images/stablePay2Laptops.png"
+                    src="images/Stablepay/stablePay2Laptops.png"
                     alt="StablePay 2 Laptops"
                 />
                 <h2 className="pt-36 text-center font-interTight text-4xl">
@@ -27,14 +27,14 @@ export default function StablepaySummary() {
             <div className="w-full">
                 <img
                     className="mt-8 w-full object-cover"
-                    src="public/images/stablePayModules.png"
+                    src="images/Stablepay/stablePayModules.png"
                     alt="StablePay Modules"
                 />
             </div>
             <div className="mx-auto mt-36 grid grid-cols-2 items-center">
                 <img
                     className="h-auto w-full"
-                    src="public/images/stablepayPurchaseLaptop.png"
+                    src="images/Stablepay/stablepayPurchaseLaptop.png"
                     alt="StablePay Purchase Laptop"
                 />
                 <div className="m-4 flex max-w-screen-lg flex-col justify-center pr-8">
