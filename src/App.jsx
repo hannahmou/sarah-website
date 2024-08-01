@@ -7,6 +7,7 @@ import Stablepay from './pages/Stablepay.jsx'
 import './App.css'
 import About from './pages/About.jsx'
 import Foodchain from './pages/Foodchain.jsx'
+import Blueprint from './pages/Blueprint.jsx'
 
 function App() {
     const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/work" element={<Work />} />
                 <Route path="/stablepay" element={<Stablepay />} />
                 <Route path="/foodchain" element={<Foodchain />} />
+                <Route path="/blueprint" element={<Blueprint />} />
             </Routes>
         </BrowserRouter>
     )

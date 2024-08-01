@@ -15,3 +15,7 @@
 .background-gradient {
     @apply relative mb-[24px] h-auto w-full overflow-hidden rounded-[40px] border-[2.65px] border-[#E6E8ED] bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] transition-all duration-300 ease-in-out;
 }
+
+.no-scroll {
+    overflow: hidden;
+}

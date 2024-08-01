@@ -39,21 +39,23 @@ export default function HomeContent() {
                     </Link>
 
                     {/* BLUEPRINT */}
-                    <div className="background-gradient group from-[#86D1EE]/20 to-[#FBFBFD]">
-                        <div className="hover-gradient">
-                            <HoverText
-                                className="transition-opacity duration-300 ease-in-out"
-                                type="Social Media Design"
-                                name="Blueprint"
-                                description="Developing a cohesive and impactful social media presence."
+                    <Link to="blueprint">
+                        <div className="background-gradient group from-[#86D1EE]/20 to-[#FBFBFD]">
+                            <div className="hover-gradient">
+                                <HoverText
+                                    className="transition-opacity duration-300 ease-in-out"
+                                    type="Social Media Design"
+                                    name="Blueprint"
+                                    description="Developing a cohesive and impactful social media presence."
+                                />
+                            </div>
+                            <img
+                                className="mx-auto my-20 h-auto max-w-full object-scale-down"
+                                src="/images/bluePrintPost.png"
+                                alt=""
                             />
                         </div>
-                        <img
-                            className="mx-auto my-20 h-auto max-w-full object-scale-down"
-                            src="/images/bluePrintPost.png"
-                            alt=""
-                        />
-                    </div>
+                    </Link>
                     {/* BERKELEY REKWELL */}
                     <div className="background-gradient group from-[#DC3D77]/20 to-[#FBFBFD]">
                         <div className="hover-gradient">

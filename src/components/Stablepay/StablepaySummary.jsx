@@ -1,16 +1,16 @@
 import SectionHeader from '../SectionHeader'
+import SectionTitle from '../SectionTitle'
 
 export default function StablepaySummary() {
     return (
         <div>
             <div className="mx-auto mt-32 max-w-screen-lg px-8">
                 <SectionHeader number="001" title="SUMMARY" />
-
-                <h1 className="mt-5 font-interTight text-5xl font-light">
-                    Automatically convert fiat currency to stablecoins for daily
+                <SectionTitle
+                    title="Automatically convert fiat currency to stablecoins for daily
                     transactions, earn rewards, and track spending --for
-                    businesses and consumers.
-                </h1>
+                    businesses and consumers."
+                />
                 <img
                     className="mx-auto mt-16"
                     src="images/Stablepay/stablePay2Laptops.png"
