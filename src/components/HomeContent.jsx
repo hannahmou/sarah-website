@@ -127,21 +127,23 @@ export default function HomeContent() {
                         </div>
                     </Link>
                     {/* CAL ESPORTS */}
-                    <div className="background-gradient group from-[#003262]/20 to-[#FBFBFD]">
-                        <div className="hover-gradient">
-                            <HoverText
-                                className="transition-opacity duration-300 ease-in-out"
-                                type="Social Media Design / Event Branding"
-                                name="CalEsports"
-                                description="CHANGE THIS IS TAYLOR SWIFT RELATED."
+                    <Link to="calesports">
+                        <div className="background-gradient group from-[#003262]/20 to-[#FBFBFD]">
+                            <div className="hover-gradient">
+                                <HoverText
+                                    className="transition-opacity duration-300 ease-in-out"
+                                    type="Social Media Design / Event Branding"
+                                    name="CalEsports"
+                                    description="CHANGE THIS IS TAYLOR SWIFT RELATED."
+                                />
+                            </div>
+                            <img
+                                className="mx-auto my-40 max-w-full object-scale-down px-8"
+                                src="/images/calEsports.png"
+                                alt=""
                             />
                         </div>
-                        <img
-                            className="mx-auto my-40 max-w-full object-scale-down px-8"
-                            src="/images/calEsports.png"
-                            alt=""
-                        />
-                    </div>
+                    </Link>
                     {/* LAW LOOP */}
                     <div className="background-gradient group h-full flex-1 overflow-hidden from-[#5F8AB0]/20 to-[#FBFBFD]">
                         <div className="hover-gradient">
