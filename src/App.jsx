@@ -10,6 +10,7 @@ import Foodchain from './pages/Foodchain.jsx'
 import Blueprint from './pages/Blueprint.jsx'
 import SwiftEase from './pages/SwiftEase.jsx'
 import CalEsports from './pages/CalEsports.jsx'
+import BerkeleyRekWell from './pages/BerkeleyRecWell.jsx'
 
 function App() {
     const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
                 <Route path="/blueprint" element={<Blueprint />} />
                 <Route path="/swiftease" element={<SwiftEase />} />
                 <Route path="/calesports" element={<CalEsports />} />
+                <Route path="/berkeleyrekwell" element={<BerkeleyRekWell />} />
             </Routes>
         </BrowserRouter>
     )

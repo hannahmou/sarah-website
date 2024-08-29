@@ -57,21 +57,23 @@ export default function HomeContent() {
                         </div>
                     </Link>
                     {/* BERKELEY REKWELL */}
-                    <div className="background-gradient group from-[#DC3D77]/20 to-[#FBFBFD]">
-                        <div className="hover-gradient">
-                            <HoverText
-                                className="transition-opacity duration-300 ease-in-out"
-                                type="Event Branding, Print Design"
-                                name="Berkely RecWell"
-                                description="Developing a cohesive and impactful social media presence."
+                    <Link to="berkeleyrekwell">
+                        <div className="background-gradient group from-[#DC3D77]/20 to-[#FBFBFD]">
+                            <div className="hover-gradient">
+                                <HoverText
+                                    className="transition-opacity duration-300 ease-in-out"
+                                    type="Event Branding, Print Design"
+                                    name="Berkely RecWell"
+                                    description="Developing a cohesive and impactful social media presence."
+                                />
+                            </div>
+                            <img
+                                className="mx-auto h-auto max-w-full object-scale-down py-[50px] pr-[50px]"
+                                src="/images/berkeleyRekWellBook.png"
+                                alt=""
                             />
                         </div>
-                        <img
-                            className="mx-auto h-auto max-w-full object-scale-down py-[50px] pr-[50px]"
-                            src="/images/berkeleyRekWellBook.png"
-                            alt=""
-                        />
-                    </div>
+                    </Link>
                     {/* BIDDLE */}
                     <div className="background-gradient group from-[#5C35A5]/20 to-[#FBFBFD]">
                         <div className="hover-gradient">
