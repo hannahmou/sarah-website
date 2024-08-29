@@ -11,6 +11,7 @@ import Blueprint from './pages/Blueprint.jsx'
 import SwiftEase from './pages/SwiftEase.jsx'
 import CalEsports from './pages/CalEsports.jsx'
 import BerkeleyRekWell from './pages/BerkeleyRecWell.jsx'
+import LawLoop from './pages/LawLoop.jsx'
 
 function App() {
     const [count, setCount] = useState(0)
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/swiftease" element={<SwiftEase />} />
                 <Route path="/calesports" element={<CalEsports />} />
                 <Route path="/berkeleyrekwell" element={<BerkeleyRekWell />} />
+                <Route path="/lawloop" element={<LawLoop />} />
             </Routes>
         </BrowserRouter>
     )

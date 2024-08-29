@@ -147,21 +147,23 @@ export default function HomeContent() {
                         </div>
                     </Link>
                     {/* LAW LOOP */}
-                    <div className="background-gradient group h-full flex-1 overflow-hidden from-[#5F8AB0]/20 to-[#FBFBFD]">
-                        <div className="hover-gradient">
-                            <HoverText
-                                className="transition-opacity duration-300 ease-in-out"
-                                type="Web Design / Development"
-                                name="LawLoop"
-                                description="Optimizing the process of selecting a law firm through AI, data, and analytics."
+                    <Link to="lawloop">
+                        <div className="background-gradient group h-full flex-1 overflow-hidden from-[#5F8AB0]/20 to-[#FBFBFD]">
+                            <div className="hover-gradient">
+                                <HoverText
+                                    className="transition-opacity duration-300 ease-in-out"
+                                    type="Web Design / Development"
+                                    name="LawLoop"
+                                    description="Optimizing the process of selecting a law firm through AI, data, and analytics."
+                                />
+                            </div>
+                            <img
+                                className="my-auto max-w-full object-scale-down py-[75px] pr-[25px]"
+                                src="/images/lawLoopMacbook.png"
+                                alt=""
                             />
                         </div>
-                        <img
-                            className="my-auto max-w-full object-scale-down py-[75px] pr-[25px]"
-                            src="/images/lawLoopMacbook.png"
-                            alt=""
-                        />
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>
