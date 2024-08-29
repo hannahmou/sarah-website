@@ -1,3 +1,4 @@
+import BlueprintConclusion from '../components/Blueprint/blueprintConclusion'
 import BlueprintIntro from '../components/Blueprint/blueprintIntro'
 import BlueprintOverview from '../components/Blueprint/blueprintOverview'
 import BluePrintSummary from '../components/Blueprint/blueprintSummary'
@@ -11,6 +12,7 @@ export default function Blueprint() {
             <BlueprintIntro />
             <BluePrintSummary />
             <BlueprintOverview />
+            <BlueprintConclusion />
             <Footer />
         </div>
     )

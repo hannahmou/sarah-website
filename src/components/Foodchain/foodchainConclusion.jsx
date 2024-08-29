@@ -8,7 +8,7 @@ export default function FoodchainConclusion() {
             <h1 className="mt-12 font-interTight text-4xl font-medium">
                 My takeaways!
             </h1>
-            <div className="mt-2 font-interTight text-lg font-light">
+            <div className="mt-2 font-interTight text-2xl font-light leading-[38px]">
                 <p>
                     As part of my application for Blockchain @ Berkeley, I was
                     tasked with coming up and designing an application that

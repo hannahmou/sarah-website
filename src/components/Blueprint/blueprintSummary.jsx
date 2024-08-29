@@ -5,6 +5,12 @@ import { useState } from 'react'
 
 export default function BluePrintSummary() {
     const [openModal, setOpenModal] = useState(false)
+    const [selectedImage, setSelectedImage] = useState('') // New state for the selected image
+
+    const handleOpenModal = (image) => {
+        setSelectedImage(image)
+        setOpenModal(true)
+    }
 
     return (
         <div className="mx-auto max-w-screen-lg">
@@ -23,16 +29,39 @@ export default function BluePrintSummary() {
                             className="mx-auto"
                         />
                         <div className="mx-28 mt-4 grid grid-flow-col grid-cols-3">
-                            <button onClick={() => setOpenModal(true)}>
+                            <button
+                                onClick={() =>
+                                    handleOpenModal(
+                                        'images/Blueprint/blueprintDetailInstaPost1.png'
+                                    )
+                                }
+                            >
                                 <img src="images/Blueprint/blueprintInstaPost1.png" />
                             </button>
-                            <img src="images/Blueprint/blueprintInstaPost2.png" />
-                            <img src="images/Blueprint/blueprintInstaPost3.png" />
+                            <button
+                                onClick={() =>
+                                    handleOpenModal(
+                                        'images/Blueprint/blueprintDetailInstaPost2.png'
+                                    )
+                                }
+                            >
+                                <img src="images/Blueprint/blueprintInstaPost2.png" />
+                            </button>
+                            <button
+                                onClick={() =>
+                                    handleOpenModal(
+                                        'images/Blueprint/blueprintDetailInstaPost3.png'
+                                    )
+                                }
+                            >
+                                <img src="images/Blueprint/blueprintInstaPost3.png" />
+                            </button>
                         </div>
                     </div>
                     <Modal
                         open={openModal}
                         onClose={() => setOpenModal(false)}
+                        image={selectedImage} // Pass the selected image to the modal
                     />
                 </div>
             </div>

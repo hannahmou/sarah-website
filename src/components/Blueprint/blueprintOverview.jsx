@@ -24,19 +24,19 @@ export default function BlueprintOverview() {
                             Pinterest inspo board
                         </h1>
                         <img
-                            src="images/Blueprint/blueprintAssets.png"
+                            src="images/Blueprint/blueprintPinterest.png"
                             alt="Pinterest inspo board"
-                            className="max-w-full"
+                            className="h-[530px] max-w-full"
                         />
                     </div>
                     <div className="flex flex-col items-center">
-                        <h1 className="mb-6 mt-8 text-center font-medium leading-6">
+                        <h1 className="mx-auto mb-6 mt-8 pr-16 font-medium leading-6">
                             Asset library
                         </h1>
                         <img
                             src="images/Blueprint/blueprintAssets.png"
                             alt="Asset library"
-                            className="max-w-full"
+                            className="mr-16 h-[500px]"
                         />
                     </div>
                 </div>

@@ -8,7 +8,7 @@ export default function StablepayConclusion() {
             <h1 className="mt-12 font-interTight text-4xl font-medium">
                 My takeaways!
             </h1>
-            <div className="mt-2 font-interTight font-light">
+            <div className="mt-2 font-interTight text-2xl font-light leading-[38px]">
                 <p>
                     This project was my first real time focusing on the user
                     experience aspect of UI/UX design. I learned a ton about

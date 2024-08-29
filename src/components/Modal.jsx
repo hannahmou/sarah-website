@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-const Modal = ({ open, onClose }) => {
+const Modal = ({ open, onClose, image }) => {
     useEffect(() => {
         if (open) {
             document.body.classList.add('hide-scrollbar')
@@ -25,10 +25,7 @@ const Modal = ({ open, onClose }) => {
             </button>
 
             <div className="relative m-28 flex max-h-full max-w-full flex-col overflow-hidden rounded-xl">
-                <img
-                    src="images\Blueprint\blueprintDetailInstaPost1.png"
-                    className=""
-                />
+                <img src={image} className="" />
             </div>
             {/* <button className="absolute right-20">
                 <img src="images\Icons\instagramArrowNext.png" />
