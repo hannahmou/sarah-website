@@ -12,6 +12,7 @@ import SwiftEase from './pages/SwiftEase.jsx'
 import CalEsports from './pages/CalEsports.jsx'
 import BerkeleyRekWell from './pages/BerkeleyRecWell.jsx'
 import LawLoop from './pages/LawLoop.jsx'
+import Biddle from './pages/Biddle.jsx'
 
 function App() {
     const [count, setCount] = useState(0)
@@ -31,6 +32,7 @@ function App() {
                 <Route path="/calesports" element={<CalEsports />} />
                 <Route path="/berkeleyrekwell" element={<BerkeleyRekWell />} />
                 <Route path="/lawloop" element={<LawLoop />} />
+                <Route path="/biddle" element={<Biddle />} />
             </Routes>
         </BrowserRouter>
     )

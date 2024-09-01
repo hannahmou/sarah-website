@@ -75,21 +75,23 @@ export default function HomeContent() {
                         </div>
                     </Link>
                     {/* BIDDLE */}
-                    <div className="background-gradient group from-[#5C35A5]/20 to-[#FBFBFD]">
-                        <div className="hover-gradient">
-                            <HoverText
-                                className="transition-opacity duration-300 ease-in-out"
-                                type="UI / UX Design"
-                                name="Biddle"
-                                description="Transforming the process of making and tracking Greek points."
+                    <Link to="biddle">
+                        <div className="background-gradient group from-[#5C35A5]/20 to-[#FBFBFD]">
+                            <div className="hover-gradient">
+                                <HoverText
+                                    className="transition-opacity duration-300 ease-in-out"
+                                    type="UI / UX Design"
+                                    name="Biddle"
+                                    description="Transforming the process of making and tracking Greek points."
+                                />
+                            </div>
+                            <img
+                                className="mx-auto my-[70px] h-[500px] max-w-full object-scale-down"
+                                src="/images/biddleIphone.png"
+                                alt=""
                             />
                         </div>
-                        <img
-                            className="mx-auto my-[70px] h-[500px] max-w-full object-scale-down"
-                            src="/images/biddleIphone.png"
-                            alt=""
-                        />
-                    </div>
+                    </Link>
                 </div>
                 <div className="col-span-7 flex w-full flex-col">
                     {/* FOODCHAIN */}
@@ -158,7 +160,7 @@ export default function HomeContent() {
                                 />
                             </div>
                             <img
-                                className="my-auto max-w-full object-scale-down py-[75px] pr-[25px]"
+                                className="my-auto max-w-full object-scale-down py-[150px] pr-[25px]"
                                 src="/images/lawLoopMacbook.png"
                                 alt=""
                             />
