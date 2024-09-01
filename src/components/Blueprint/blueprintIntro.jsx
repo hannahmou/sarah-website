@@ -6,7 +6,7 @@ export default function BlueprintIntro() {
                     <div className="inline w-full justify-center">
                         <img
                             className="mx-auto w-[400px] pt-16"
-                            src="public\images\bluePrintPost.png"
+                            src="images\bluePrintPost.png"
                             alt="Blueprint Post"
                         />
                     </div>

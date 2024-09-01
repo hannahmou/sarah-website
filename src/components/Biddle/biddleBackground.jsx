@@ -39,7 +39,7 @@ export default function BiddleBackground() {
                         <div className="flex items-center">
                             <img
                                 className="flex-box h-8"
-                                src="public\images\Icons\flash.png"
+                                src="images\Icons\flash.png"
                             />
                             <h2 className="m-4 pr-12 align-middle font-interTight text-xl font-medium">
                                 Data integrity
@@ -56,7 +56,7 @@ export default function BiddleBackground() {
                         <div className="flex items-center">
                             <img
                                 className="flex-box h-8"
-                                src="public\images\Icons\profile.png"
+                                src="images\Icons\profile.png"
                             />
                             <h2 className="m-4 pr-12 align-middle font-interTight text-xl font-medium">
                                 Organizational issues

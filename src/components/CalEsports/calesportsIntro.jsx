@@ -8,7 +8,7 @@ export default function CalEsportsIntro() {
                     <div className="inline w-full justify-center pt-[70px]">
                         <img
                             className="mx-auto w-[500px]"
-                            src="public\images\calEsports.png"
+                            src="images\calEsports.png"
                             alt="Stablepay Desktop"
                         />
                     </div>

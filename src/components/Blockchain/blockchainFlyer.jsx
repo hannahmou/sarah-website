@@ -16,7 +16,7 @@ export default function BlockchainFlyer() {
             <div className="pb-16">
                 <img
                     className="mx-auto w-[700px]"
-                    src="public\images\Blockchain\blockchainFlyer.png"
+                    src="images\Blockchain\blockchainFlyer.png"
                 />
             </div>
             <div className="bg-[#F6F6F6]">
@@ -25,7 +25,7 @@ export default function BlockchainFlyer() {
                 </p>
                 <img
                     className="mx-auto max-w-screen-lg px-12 pb-4"
-                    src="public\images\Blockchain\blockchainFlyerIRL.png"
+                    src="images\Blockchain\blockchainFlyerIRL.png"
                 />
                 <p className="mx-auto max-w-screen-lg px-12 pb-16 text-right font-interTight">
                     (S/O to Aly, Megan, and Riddhi!)

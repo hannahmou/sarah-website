@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     const onCVClick = () => {
-        window.open('public/Sarah_Mou_Resume.pdf')
+        window.open('Sarah_Mou_Resume.pdf')
     }
 
     return (

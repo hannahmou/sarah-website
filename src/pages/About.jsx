@@ -53,7 +53,7 @@ export default function About() {
                         <div className="col-span-5 flex justify-center">
                             <img
                                 className="h-max"
-                                src="public/images/About/aboutSarah.png"
+                                src="images/About/aboutSarah.png"
                             />
                         </div>
                     </div>
@@ -81,7 +81,7 @@ export default function About() {
                                 <p className="font-interTight">May 2027</p>
                             </div>
                             <div className="px-4 pt-20">
-                                <img src="public\images\About\aboutOski.png" />
+                                <img src="images\About\aboutOski.png" />
                                 <p className="p-4 text-center font-interTight">
                                     Me & Oski &lt;3
                                 </p>
@@ -101,19 +101,19 @@ export default function About() {
                     <div className="absolute left-0 right-0 top-16 -mx-12 h-[300px] bg-[#F8EBF1]"></div>{' '}
                     <div className="relative z-10 mx-auto grid max-w-screen-lg grid-cols-3 gap-6">
                         <div className="p-2">
-                            <img src="public/images/About/aboutChina.png" />
+                            <img src="images/About/aboutChina.png" />
                             <p className="pt-4 text-center font-interTight">
                                 I went to China this summer!{' '}
                             </p>
                         </div>
                         <div className="p-2">
-                            <img src="public/images/About/aboutHannah.png" />
+                            <img src="images/About/aboutHannah.png" />
                             <p className="pt-4 text-center font-interTight">
                                 I have an identical twin! (Hi Hannah :P){' '}
                             </p>
                         </div>
                         <div className="p-2">
-                            <img src="public/images/About/aboutCats.png" />
+                            <img src="images/About/aboutCats.png" />
                             <p className="pt-4 text-center font-interTight">
                                 I have two cats named Soy and Bean (a reference
                                 off of my dog’s name, Tofu){' '}

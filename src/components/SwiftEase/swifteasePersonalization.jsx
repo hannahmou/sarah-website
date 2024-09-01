@@ -17,7 +17,7 @@ export default function SwiftEasePersonalization() {
 
                 <img
                     className="h-max w-max pt-16"
-                    src="public\images\SwiftEase\swifteaseDetail.png"
+                    src="images\SwiftEase\swifteaseDetail.png"
                 />
                 <div className="pb-16"></div>
             </div>

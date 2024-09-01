@@ -28,7 +28,7 @@ export default function SwiftEaseReadability() {
                     </div>
                     <img
                         className="mx-auto mt-16"
-                        src="public\images\SwiftEase\swifteaseEvents.png"
+                        src="images\SwiftEase\swifteaseEvents.png"
                         alt="StablePay 2 Laptops"
                     />
                 </div>
@@ -36,7 +36,7 @@ export default function SwiftEaseReadability() {
             <div className="w-full pb-32">
                 <img
                     className="mt-8 w-full object-cover"
-                    src="public\images\SwiftEase\swifteaseTicketScroll.png"
+                    src="images\SwiftEase\swifteaseTicketScroll.png"
                     alt="StablePay Modules"
                 />
             </div>

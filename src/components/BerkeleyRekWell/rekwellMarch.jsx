@@ -19,7 +19,7 @@ export default function RekWellMarchMadness() {
             <div className="bg-[#F6F6F6] py-16">
                 <img
                     className="b mx-auto"
-                    src="public\images\BerkeleyRekWell\rekwellMarch.png"
+                    src="images\BerkeleyRekWell\rekwellMarch.png"
                 />
             </div>
             <div className="bg-white p-8"></div>
@@ -27,7 +27,7 @@ export default function RekWellMarchMadness() {
             <div className="bg-[#F6F6F6] py-16">
                 <img
                     className="b mx-auto"
-                    src="public\images\BerkeleyRekWell\rekwellMarch2.png"
+                    src="images\BerkeleyRekWell\rekwellMarch2.png"
                 />
             </div>
         </div>

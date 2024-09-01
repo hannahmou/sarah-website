@@ -8,7 +8,7 @@ export default function RekWellIntro() {
                     <div className="inline w-full justify-center pt-[70px]">
                         <img
                             className="mx-auto w-[800px]"
-                            src="public\images\BerkeleyRekWell\rekwellBook.png"
+                            src="images\BerkeleyRekWell\rekwellBook.png"
                             alt="Stablepay Desktop"
                         />
                     </div>

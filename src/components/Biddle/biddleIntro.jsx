@@ -6,7 +6,7 @@ export default function BiddleIntro() {
                     <div className="inline w-full justify-center">
                         <img
                             className="mx-auto w-[400px] pt-16"
-                            src="public\images\Biddle\biddleTilt.png"
+                            src="images\Biddle\biddleTilt.png"
                             alt="Blueprint Post"
                         />
                     </div>

@@ -9,7 +9,7 @@ export default function SwiftEaseSummary() {
                 <SectionTitle title="The all new “Taylor’s Version” of a ticket platform. Buy concert tickets with ease." />
                 <img
                     className="mx-auto mt-16"
-                    src="public\images\SwiftEase\swifteaseSummary.png"
+                    src="images\SwiftEase\swifteaseSummary.png"
                     alt="StablePay 2 Laptops"
                 />
                 <h2 className="pt-36 text-center font-interTight text-4xl">
@@ -23,7 +23,7 @@ export default function SwiftEaseSummary() {
             <div className="w-full">
                 <img
                     className="mt-8 w-full object-cover"
-                    src="public\images\SwiftEase\swifteaseMerch.png"
+                    src="images\SwiftEase\swifteaseMerch.png"
                     alt="StablePay Modules"
                 />
             </div>
@@ -40,7 +40,7 @@ export default function SwiftEaseSummary() {
                 </div>
                 <img
                     className="h-auto w-full"
-                    src="public\images\SwiftEase\swifteaseTickets.png"
+                    src="images\SwiftEase\swifteaseTickets.png"
                     alt="StablePay Purchase Laptop"
                 />
             </div>

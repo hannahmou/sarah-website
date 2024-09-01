@@ -16,7 +16,7 @@ export default function BlockchainExecs() {
             <div className="pb-16">
                 <img
                     className="mx-auto w-[700px]"
-                    src="public\images\Blockchain\blockchainExecs.png"
+                    src="images\Blockchain\blockchainExecs.png"
                 />
             </div>
         </div>

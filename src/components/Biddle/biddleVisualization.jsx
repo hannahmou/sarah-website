@@ -16,7 +16,7 @@ export default function BiddleVisualization() {
                 </p>
             </div>
             <div className="mx-auto max-w-screen-lg rounded-md bg-[#F6F6F6]">
-                <img src="public\images\Biddle\biddleDescribe.png" />
+                <img src="images\Biddle\biddleDescribe.png" />
             </div>
             <h3 className="pt-8 font-interTight text-3xl font-medium">
                 Understanding hierarchy{' '}
@@ -48,10 +48,7 @@ export default function BiddleVisualization() {
                     </div>
                 </div>
                 <div>
-                    <img
-                        className=""
-                        src="public\images\Biddle\biddleChart.png"
-                    />
+                    <img className="" src="images\Biddle\biddleChart.png" />
                 </div>
             </div>
         </div>

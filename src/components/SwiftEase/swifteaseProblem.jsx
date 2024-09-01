@@ -35,7 +35,7 @@ export default function SwiftEaseProblem() {
                         <div className="flex items-center">
                             <img
                                 className="flex-box h-8"
-                                src="public\images\Icons\paint.png"
+                                src="images\Icons\paint.png"
                             />
                             <h2 className="m-4 pr-12 align-middle font-interTight text-xl font-medium">
                                 Lack of personalization
@@ -67,7 +67,7 @@ export default function SwiftEaseProblem() {
                 </div>
                 <img
                     className="mt-8 h-max w-max"
-                    src="public\images\SwiftEase\swifteaseTicketMaster.png"
+                    src="images\SwiftEase\swifteaseTicketMaster.png"
                 />
                 <div className="pb-16"></div>
             </div>

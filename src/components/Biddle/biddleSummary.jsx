@@ -10,20 +10,20 @@ export default function BiddleSummary() {
                 <SectionTitle title="Easily view and comprehend tasks with distinct visuals delineating categories. Sign up with just a swipe or a touch of a button." />
                 <div className="[] grid grid-flow-col grid-cols-3 pb-3 pt-8">
                     <div className="p-4">
-                        <img src="public\images\Biddle\biddleIphone1.png"></img>
+                        <img src="images\Biddle\biddleIphone1.png"></img>
                     </div>
                     <div className="p-4">
-                        <img src="public\images\Biddle\biddleIphone2.png"></img>
+                        <img src="images\Biddle\biddleIphone2.png"></img>
                     </div>
                     <div className="p-4">
-                        <img src="public\images\Biddle\biddleIphone3.png"></img>
+                        <img src="images\Biddle\biddleIphone3.png"></img>
                     </div>
                 </div>
                 <div className="grid grid-flow-col grid-cols-2 py-10">
                     <div>
                         <img
                             className="mx-auto h-[600px]"
-                            src="public\images\Biddle\biddleRed.png"
+                            src="images\Biddle\biddleRed.png"
                         />
                     </div>
                     <div className="my-auto">
@@ -51,7 +51,7 @@ export default function BiddleSummary() {
                     <div>
                         <img
                             className="mx-auto h-[600px]"
-                            src="public\images\Biddle\biddleEvents.png"
+                            src="images\Biddle\biddleEvents.png"
                         />
                     </div>
                 </div>

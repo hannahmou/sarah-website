@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
     const onCVClick = () => {
-        window.open('public/Sarah_Mou_Resume.pdf')
+        window.open('Sarah_Mou_Resume.pdf')
     }
     return (
         <div className="mx-auto mt-16 max-w-screen-lg">

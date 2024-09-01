@@ -16,7 +16,7 @@ export default function CalEsportsGeneral() {
             <div className="bg-[#F6F6F6] py-16">
                 <img
                     className="b mx-auto"
-                    src="public\images\CalEsports\calesportsRRR.png"
+                    src="images\CalEsports\calesportsRRR.png"
                 />
             </div>
         </div>

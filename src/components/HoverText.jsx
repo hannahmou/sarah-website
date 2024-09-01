@@ -4,7 +4,7 @@ const HoverText = ({ type, name, description }) => {
             <button>
                 <img
                     className="absolute right-0 mr-4 h-12 w-auto"
-                    src="public\images\Icons\arrowRightIcon.png"
+                    src="images\Icons\arrowRightIcon.png"
                 ></img>
             </button>
             <div className="absolute bottom-0 pb-8 pl-5 leading-snug">

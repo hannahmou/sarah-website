@@ -6,7 +6,7 @@ export default function SwiftEaseIntro() {
                     <div className="inline w-full justify-center">
                         <img
                             className="mx-auto w-[600px] pt-16"
-                            src="public\images\SwiftEase\swifteaseMain.png"
+                            src="images\SwiftEase\swifteaseMain.png"
                             alt="Blueprint Post"
                         />
                     </div>

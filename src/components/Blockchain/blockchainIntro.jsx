@@ -6,7 +6,7 @@ export default function BlockchainIntro() {
                     <div className="inline w-full justify-center">
                         <img
                             className="mx-auto w-[300px] pt-16"
-                            src="public\images\blockchain.png"
+                            src="images\blockchain.png"
                             alt="Blockchain Post"
                         />
                     </div>

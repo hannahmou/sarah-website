@@ -105,7 +105,7 @@ export default function HomeContent() {
                             </div>
                             <img
                                 className="mx-auto my-[100px] h-[320px] max-w-full object-scale-down"
-                                src="public\images\blockchain.png"
+                                src="images\blockchain.png"
                                 alt=""
                             />
                         </div>
@@ -187,7 +187,6 @@ export default function HomeContent() {
                     {/* COMING SOON */}
                     <Link to="#">
                         <div className="background-gradient group from-[#EB2234]/20 to-[#FBFBFD]">
-                            <div className="hover-gradient"></div>
                             <div className="flex h-[620px] items-center justify-center">
                                 <h1 className="text-center font-highTower text-7xl italic leading-[87px] -tracking-[0.03em]">
                                     coming soon...

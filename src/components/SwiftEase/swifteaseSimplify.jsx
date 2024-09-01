@@ -26,7 +26,7 @@ export default function SwiftEaseSimplify() {
             <div className="w-full pb-32">
                 <img
                     className="mx-auto mt-16"
-                    src="public\images\SwiftEase\swifteaseSimplify.png"
+                    src="images\SwiftEase\swifteaseSimplify.png"
                     alt="StablePay 2 Laptops"
                 />
             </div>

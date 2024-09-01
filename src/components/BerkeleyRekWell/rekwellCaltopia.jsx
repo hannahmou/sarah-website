@@ -16,7 +16,7 @@ export default function RekWellCaltopia() {
             <div className="bg-[#F6F6F6] py-16">
                 <img
                     className="mx-auto"
-                    src="public\images\BerkeleyRekWell\rekwellAds.png"
+                    src="images\BerkeleyRekWell\rekwellAds.png"
                 />
             </div>
             <div className="bg-white p-8">
@@ -29,7 +29,7 @@ export default function RekWellCaltopia() {
             <div className="bg-[#F6F6F6] py-16">
                 <img
                     className="mx-auto px-32"
-                    src="public\images\BerkeleyRekWell\rekwellTote.png"
+                    src="images\BerkeleyRekWell\rekwellTote.png"
                 />
             </div>
 
@@ -43,7 +43,7 @@ export default function RekWellCaltopia() {
             <div className="bg-[#F6F6F6] py-16">
                 <img
                     className="mx-auto px-32"
-                    src="public\images\BerkeleyRekWell\rekwellTowelFinal.png"
+                    src="images\BerkeleyRekWell\rekwellTowelFinal.png"
                 />
                 <p className="mt-4 text-center font-interTight text-[#838588]">
                     Final chosen designs
@@ -53,7 +53,7 @@ export default function RekWellCaltopia() {
             <div className="bg-[#F6F6F6] py-16">
                 <img
                     className="mx-auto px-32"
-                    src="public\images\BerkeleyRekWell\rekwellTowelInitial.png"
+                    src="images\BerkeleyRekWell\rekwellTowelInitial.png"
                 />
                 <p className="mt-4 text-center font-interTight text-[#838588]">
                     Initial designs

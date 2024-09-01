@@ -21,7 +21,7 @@ export default function BiddleData() {
                 </div>
                 <img
                     className="mx-auto bg-white p-8 px-12"
-                    src="public\images\Biddle\biddleData.png"
+                    src="images\Biddle\biddleData.png"
                 />
             </div>
         </div>

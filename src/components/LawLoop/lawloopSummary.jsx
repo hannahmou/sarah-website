@@ -8,10 +8,7 @@ export default function LawLoopSummary() {
                 <SectionHeader number="001" title="SUMMARY" />
 
                 <SectionTitle title="Find a lawyer, specific to your needs with the help of a personalized AI powered assistant. " />
-                <img
-                    className="mt-16"
-                    src="public\images\LawLoop\lawloopLaptop.png"
-                />
+                <img className="mt-16" src="images\LawLoop\lawloopLaptop.png" />
                 <h2 className="pb-4 pt-36 text-center font-interTight text-4xl">
                     Let LawLoop demystify your files.{' '}
                 </h2>
@@ -25,7 +22,7 @@ export default function LawLoopSummary() {
                         <span className="absolute inset-y-0 left-3 flex items-center">
                             <img
                                 className="w-4"
-                                src="public\images\Icons\attach_file.png"
+                                src="images\Icons\attach_file.png"
                             />
                         </span>
                         <input
@@ -37,7 +34,7 @@ export default function LawLoopSummary() {
             </div>
             <div className="mt-20 grid grid-flow-col grid-cols-2">
                 <div>
-                    <img src="src\components\LawLoop\lawloopNotif.png" />
+                    <img src="images\LawLoop\lawloopNotif.png" />
                 </div>
                 <div className="mx-auto max-w-screen-lg px-8">
                     <h2 className="pb-4 pt-36 font-interTight text-4xl">

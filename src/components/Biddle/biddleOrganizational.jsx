@@ -16,7 +16,7 @@ export default function BiddleOrganizational() {
                 </p>
             </div>
             <div className="mx-auto max-w-screen-lg">
-                <img src="public\images\Biddle\biddleOrganizational.jsx.png" />
+                <img src="images\Biddle\biddleOrganizational.jsx.png" />
             </div>
         </div>
     )
