@@ -92,6 +92,24 @@ export default function HomeContent() {
                             />
                         </div>
                     </Link>
+                    {/* BLOCKCHAIN */}
+                    <Link to="blockchain">
+                        <div className="background-gradient group from-[#EAA536]/20 to-[#FBFBFD]">
+                            <div className="hover-gradient">
+                                <HoverText
+                                    className="transition-opacity duration-300 ease-in-out"
+                                    type="Social Media Branding"
+                                    name="B@B"
+                                    description="Revamping Blockchain @ Berkeley’s social media presence and recruitment theme"
+                                />
+                            </div>
+                            <img
+                                className="mx-auto my-[100px] h-[320px] max-w-full object-scale-down"
+                                src="public\images\blockchain.png"
+                                alt=""
+                            />
+                        </div>
+                    </Link>
                 </div>
                 <div className="col-span-7 flex w-full flex-col">
                     {/* FOODCHAIN */}
@@ -138,7 +156,7 @@ export default function HomeContent() {
                                     className="transition-opacity duration-300 ease-in-out"
                                     type="Social Media Design / Event Branding"
                                     name="CalEsports"
-                                    description="CHANGE THIS IS TAYLOR SWIFT RELATED."
+                                    description="Advertising events and initiatives by the Cal Esports organization."
                                 />
                             </div>
                             <img
@@ -160,10 +178,21 @@ export default function HomeContent() {
                                 />
                             </div>
                             <img
-                                className="my-auto max-w-full object-scale-down py-[150px] pr-[25px]"
+                                className="my-auto max-w-full object-scale-down py-[100px] pr-[25px]"
                                 src="/images/lawLoopMacbook.png"
                                 alt=""
                             />
+                        </div>
+                    </Link>
+                    {/* COMING SOON */}
+                    <Link to="#">
+                        <div className="background-gradient group from-[#EB2234]/20 to-[#FBFBFD]">
+                            <div className="hover-gradient"></div>
+                            <div className="flex h-[620px] items-center justify-center">
+                                <h1 className="text-center font-highTower text-7xl italic leading-[87px] -tracking-[0.03em]">
+                                    coming soon...
+                                </h1>
+                            </div>
                         </div>
                     </Link>
                 </div>
