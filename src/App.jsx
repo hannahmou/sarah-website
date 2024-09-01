@@ -21,7 +21,7 @@ function App() {
             <MobileOnlyMessage />
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Work />} /> {/* Home route */}
+                    <Route path="/" element={<Work />} /> {/* Default route */}
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/cv" element={<CV />} />
                     <Route path="/about" element={<About />} />

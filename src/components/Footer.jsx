@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom'
 
 export default function Footer() {
+    const onCVClick = () => {
+        window.open('public/Sarah_Mou_Resume.pdf')
+    }
     return (
         <div className="mx-auto mt-16 max-w-screen-lg">
             <hr className="mx-8 pb-5"></hr>
@@ -15,10 +18,21 @@ export default function Footer() {
                 </div>
                 <div className="list-none pr-8 text-right font-interTight text-base font-light leading-relaxed text-black">
                     <li className="flex-row">
-                        <Link to="/work">LinkedIn</Link>
+                        <a
+                            href="https://www.linkedin.com/in/sarahmou/"
+                            target="_blank"
+                        >
+                            LinkedIn
+                        </a>
                     </li>
                     <li className="flex-row">
-                        <Link to="/CV">CV</Link>
+                        <a
+                            href="#"
+                            onClick={onCVClick}
+                            className="transition duration-300 hover:text-gray-500"
+                        >
+                            CV
+                        </a>
                     </li>
                 </div>
             </div>
