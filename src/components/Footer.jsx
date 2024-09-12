@@ -13,7 +13,7 @@ export default function Footer() {
                         Get in touch!
                     </li>
                     <li className="flex-row font-interTight text-base">
-                        sarahmou@berkely.edu
+                        sarahmou@berkeley.edu
                     </li>
                 </div>
                 <div className="list-none pr-8 text-right font-interTight text-base font-light leading-relaxed text-black">
