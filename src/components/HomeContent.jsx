@@ -166,10 +166,8 @@ export default function HomeContent() {
                             />
                         </div>
                     </Link>
-                    {/* LAW LOOP 
-                    
-                    
-                     <Link to="lawloop"> 
+
+                    <Link to="lawloop">
                         <div className="background-gradient group h-full flex-1 overflow-hidden from-[#5F8AB0]/20 to-[#FBFBFD]">
                             <div className="hover-gradient">
                                 <HoverText
@@ -186,15 +184,7 @@ export default function HomeContent() {
                             />
                         </div>
                     </Link>
-                    
-                    */}
-                    <Link to="">
-                        <div className="background-gradient group h-full flex-1 overflow-hidden from-[#5F8AB0]/20 to-[#FBFBFD]">
-                            <h1 className="py-[365px] text-center font-interTight text-7xl italic leading-[100px]">
-                                TOP SECRET ;)
-                            </h1>
-                        </div>
-                    </Link>
+
                     {/* COMING SOON */}
                     <Link to="#">
                         <div className="background-gradient group from-[#EB2234]/20 to-[#FBFBFD]">
