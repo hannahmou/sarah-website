@@ -13,7 +13,7 @@ export default function RoveIntro() {
                     <div className="inline w-full justify-center pt-[70px]">
                         <img
                             className="mx-auto w-[400px]"
-                            src="src\assets\images\Iphone.png"
+                            src="images/Iphone.png"
                             alt="Rove IPhone"
                         />
                     </div>

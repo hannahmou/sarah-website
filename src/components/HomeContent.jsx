@@ -200,7 +200,7 @@ Currently live at rovemiles.com "
                             </div>
                             <img
                                 className="my-auto max-w-full object-scale-down pt-[10px] pr-[25px] h-[620px]"
-                                src="src\assets\images\Iphone.png"
+                                src="images/Iphone.png"
                                 alt=""
                             />
                         </div>
