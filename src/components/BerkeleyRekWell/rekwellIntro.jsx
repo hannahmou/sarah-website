@@ -1,6 +1,10 @@
 import Navbar from '../Navbar'
+import { useEffect } from 'react';
 
 export default function RekWellIntro() {
+    useEffect(() => {
+                    window.scrollTo(0, 0);
+                }, []);
     return (
         <div className="mx-auto">
             <div className="flex flex-col items-center">

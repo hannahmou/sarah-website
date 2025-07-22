@@ -1,6 +1,10 @@
 import SectionHeader from '../SectionHeader'
+import { useEffect } from 'react';
 
 export default function BlockchainConclusion() {
+    useEffect(() => {
+                    window.scrollTo(0, 0);
+                }, []);
     return (
         <div className="mx-auto mt-16 max-w-screen-lg px-12">
             <SectionHeader number="003" title="CONCLUSION" />

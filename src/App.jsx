@@ -11,6 +11,7 @@ import CalEsports from './pages/CalEsports.jsx'
 import BerkeleyRekWell from './pages/BerkeleyRecWell.jsx'
 import LawLoop from './pages/LawLoop.jsx'
 import Biddle from './pages/Biddle.jsx'
+import Rove from './pages/Rove.jsx'
 import Blockchain from './pages/Blockchain.jsx'
 import MobileOnlyMessage from './MobileOnlyMessage.jsx'
 import './App.css'
@@ -38,6 +39,7 @@ function App() {
                     <Route path="/lawloop" element={<LawLoop />} />
                     <Route path="/biddle" element={<Biddle />} />
                     <Route path="/blockchain" element={<Blockchain />} />
+                    <Route path="/rove" element={<Rove />} />
                 </Routes>
             </BrowserRouter>
         </div>

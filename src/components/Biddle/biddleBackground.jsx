@@ -1,6 +1,10 @@
 import SectionHeader from '../SectionHeader'
+import { useEffect } from 'react';
 
 export default function BiddleBackground() {
+    useEffect(() => {
+                    window.scrollTo(0, 0);
+                }, []);
     return (
         <div className="bg-[#F6F6F6]">
             <div className="mx-auto mt-32 max-w-screen-lg px-8">

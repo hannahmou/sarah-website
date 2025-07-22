@@ -186,13 +186,23 @@ export default function HomeContent() {
                     </Link>
 
                     {/* COMING SOON */}
-                    <Link to="#">
-                        <div className="background-gradient group from-[#EB2234]/20 to-[#FBFBFD]">
-                            <div className="flex h-[620px] items-center justify-center">
-                                <h1 className="text-center font-highTower text-7xl italic leading-[87px] -tracking-[0.03em]">
-                                    coming soon...
-                                </h1>
+                    <Link to="rove">
+                        <div className="background-gradient group h-full flex-1 overflow-hidden from-[#5F8AB0]/20 to-[#FBFBFD]">
+                            <div className="hover-gradient">
+                                <HoverText
+                                    className="transition-opacity duration-300 ease-in-out"
+                                    type="Product Designer"
+                                    name="Rove"
+                                    description="Redesigning the landing page, resulting in 150% more conversions and creating a new user dashboard.
+
+Currently live at rovemiles.com "
+                                />
                             </div>
+                            <img
+                                className="my-auto max-w-full object-scale-down pt-[10px] pr-[25px] h-[620px]"
+                                src="src\assets\images\Iphone.png"
+                                alt=""
+                            />
                         </div>
                     </Link>
                 </div>
